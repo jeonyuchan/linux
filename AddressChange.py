@@ -9,11 +9,11 @@ class Human:
 
 @dataclass
 class Address:
-    zipcode: str = "23467"
+    zipcode: str = "07014"
     country: str = "Republic of Korea"
-    city: str = "Incheon" 
-    address_line: str = "446, Geomdan-ro, Geomdan-gu"
-    transference: str = "2007-07-16"
+    city: str = "Seoul" 
+    address_line: str = "5, Dongjak-daero 17-gil, Dongjak-gu"
+    transference: str = "2026-06-04"
   
 human = Human()
 print(f"{human.first_name} {human.family_name}, born on {human.birth}, {human.born}")
